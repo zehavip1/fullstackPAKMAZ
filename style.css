@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 163, 115); 
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 5rem;
+}
+
+.add {
+    background-color: rgb(254, 250, 224); 
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 1.2rem 2.4rem;
+    position: fixed;
+    top: 1rem;
+    right: 44rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.note {
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    width: 400px;
+    padding: 1rem;
+}
+
+.note .tools {
+    background-color: rgb(204, 213, 174);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.taitel {
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+    padding: 0.5rem; 
+    font-size: 1rem; 
+}
+
+.context {
+    height: 310px;
+    width: 100%;
+    padding: 0.5rem; 
+}
+
+label {
+    font-weight: bold; 
+    display: block; 
+    margin-top: 1rem; 
+}
+
+.filterDate {
+    position: absolute; 
+    top: 1rem; 
+    left: 1rem; 
+    background-color: rgb(254, 250, 224); 
+    padding: 0.5rem; 
+    border-radius: 3px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#filter-button{
+    background-color: rgb(204, 213, 174);
+    cursor: pointer;
+    border: none;
+}
+
+.filterKeyword{
+    position: absolute; 
+    top: 1rem; 
+    left: 15rem; 
+    background-color: rgb(254, 250, 224); 
+    padding: 0.5rem; 
+    border-radius: 3px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#filter-keyword-button{
+    background-color: rgb(204, 213, 174);
+    cursor: pointer;
+    border: none;
+}
